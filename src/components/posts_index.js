@@ -16,7 +16,6 @@ class PostsIndex extends Component {
                     <Link to={`posts/${post.id}`} >
                         <span className="pull-xs-right">{post.categories}</span>
                         <strong>{post.title}</strong>
-                        <span></span>
                     </Link>
                 </li>
             );
